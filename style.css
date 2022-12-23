@@ -1,0 +1,48 @@
+body {
+  color: #2a2c2f;
+  background-color: #b9b6b5;
+}
+
+sup {
+  color: #065a82;
+}
+
+h1 {
+  text-align: center;
+  justify-content: center;
+  place-items: center;
+  position: absolute;
+  /* left: 50%; */
+  width: 50%;
+  margin: auto;
+  top: 45%;
+  color: #fff;
+}
+
+form {
+  display: grid;
+  place-items: center;
+}
+
+.parent {
+  width: 20%;
+  margin: auto;
+}
+
+.cal-pix {
+  display: flex;
+  flex-direction: row;
+}
+
+.image {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/img/pexels-pixabay-53621.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 110vh;
+  background-attachment: scroll;
+}
+
+span {
+  color: #065a82;
+}
