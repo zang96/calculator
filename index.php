@@ -54,13 +54,15 @@
                     $second = $_GET['second'];
                     $operator = $_GET['operator'];
 
-                    if ($first == false && $second == false) {
+                    if ($first == false && $second == false && $operator == false) {
 
                         echo 'Enter first and second number';
                     } elseif ($first == false) {
                         echo 'Enter first number';
                     } elseif ($second == false) {
                         echo 'Enter second number';
+                    } elseif ($operator == true && $first = false && $second == false) {
+                        echo 'Enter first and second number';
                     }
 
 
